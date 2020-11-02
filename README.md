@@ -1,0 +1,2 @@
+# nutrition-calculator
+Food Stores owns and operates over 600 food stores in the Mid-Atlantic &amp; Florida region. Currently, customers can go to the sixtwelve.com website and download a PDF with full nutritional information. However, this is not an ideal user experience. 6-12 would like to provide customers with a hoagie builder online. This hoagie builder should provide an interactive, easy to use interface for accessing nutritional information.
