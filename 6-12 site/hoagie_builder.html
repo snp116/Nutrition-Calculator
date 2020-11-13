@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>6-12 | Home</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+    <!-- Font awesome -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">     
+    <!-- Theme color -->
+    <link id="switcher" href="assets/css/theme-color/red-theme.css" rel="stylesheet">     
+    <!-- Main style sheet -->
+    <link href="style.css" rel="stylesheet">    
+
+   
+    <!-- Google Fonts -->
+
+    <!-- Prata for body  -->
+    <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
+    <!-- Tangerine for small title -->
+    <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>   
+    <!-- Open Sans for title -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body>
+
+  <!-- Start header section -->
+  <header id="mu-header">  
+    <nav class="navbar navbar-default mu-main-navbar" role="navigation">  
+      <div class="container">
+        <div class="navbar-header">
+          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <!-- LOGO -->       
+
+           <!--  Text based logo  -->
+          <a class="navbar-brand1" href="index.html"><p style="color:red;">6-12</p><span><p style="color:green;">Hoagies</p></span></a> 
+
+		      <!--  Image based logo  -->
+          <!-- <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="Logo img"></a>  -->
+         
+
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#mu-about-us">ABOUT US</a></li>                       
+            <li><a href="hoagie_builder.html">BUILD A HOAGIE</a></li>                       
+            <li><a href="#mu-contact">CONTACT</a></li> 
+          </ul>                            
+        </div><!--/.nav-collapse -->       
+      </div>          
+    </nav> 
+  </header>
+  <!-- End header section -->
+
+<!---Hoagie Builder Form Starts -->
+<form id="regForm" action="hoagie_builder_results.html">
+
+<h1>Build Your Hoagie</h1>
+
+<!-- One "tab" for each step in the form: -->
+
+<div class="tab">
+  <b>Choose your hoagie size:</b>
+  <!-- <label for="vehicle1 class="box">
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">Option 1
+    </label>
+    <label  for="vehicle2" class="box">
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">Option 2
+    </label>-->
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> 4 inch </label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> 6 inch</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> 10 inch</label><br><br>
+
+<b>Choose your hoagie type:</b>
+
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Cold </label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Hot</label><br>
+</div>
+
+
+<div class="tab">
+  <b>Choose your choice of cold hoagie:</b>
+  <p><img src="assets/img/turkeyhoagie.jpg" alt="Turkey Hoagie" height="100" width="100"></p>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Turkey </label><br>
+  <p><img src="assets/img/ham.jpeg" alt="Ham Hoagie" height="100" width="100"></p>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Ham</label><br>
+  <p><img src="assets/img/pepperoni.jpg" alt="Pepperoni Hoagie" height="100" width="100"></p>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Pepperoni</label><br>
+  <p><img src="assets/img/roastbeef.jpg" alt="Roast Beef" height="100" width="100"></p>
+  <input type="checkbox" id="vehicle4" name="vehicle4" value="Lambo">
+  <label for="vehicle4"> Roast Beef</label><br>
+  <p><img src="assets/img/italian.jpeg" alt="Italian" height="100" width="100"></p>
+  <input type="checkbox" id="vehicle5" name="vehicle5" value="Ferrari">
+  <label for="vehicle5"> Italian</label><br>
+  <p><img src="assets/img/blt.jpg" alt="BLT" height="100" width="100"></p>
+  <input type="checkbox" id="vehicle6" name="vehicle6" value="Porsche">
+  <label for="vehicle6"> BLT</label><br>
+  <p><img src="assets/img/roastedveg.jpg" alt="Roasted Vegetables" height="100" width="100"></p>
+  <input type="checkbox" id="vehicle7" name="vehicle7" value="Bentley">
+  <label for="vehicle7"> Roasted Vegetables</label><br>
+
+</div>
+
+<div class="tab">
+  <b>Choose your choice of hot hoagie</b>
+  <p><img src="assets/img/meatball.jpg" alt="Meatball" height="100" width="100"></p>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Meatball </label><br>
+  <p><img src="assets/img/cheesesteak.jpg" alt="Cheesesteak" height="100" width="100"></p>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Cheesesteak</label><br>
+  <p><img src="assets/img/chickencheese.jpeg" alt="Chicken Cheesesteak" height="100" width="100"></p>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Chicken Cheesesteak</label><br>
+  <p><img src="assets/img/hotveggie.jpg" alt="Veggie" height="100" width="100"></p>
+  <input type="checkbox" id="vehicle4" name="vehicle4" value="Lambo">
+  <label for="vehicle4"> Veggie</label><br>
+</div>
+
+<div class="tab">
+  <b>Choose your choice of cheese:</b>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> American </label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Provolone</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Cheddar</label><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Swiss </label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Pepper Jack</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> No Cheese</label><br><br><br>
+
+  <b>Choose your choice of condiments</b>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Mayo </label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Oil</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Vinegar</label><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Ranch Dressing </label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Yellow Mustard</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Ketchup</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> BBQ Sauce</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Siracha Sauce</label><br><br><br>
+
+  <b>Choose your choice of toppings</b>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Lettuce </label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Tomato</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Onions</label><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Pickles </label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Peppers</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Cucumbers</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Jalapenos</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Grated Parmesan</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Spinach</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Salt</label><br>
+  <input type="checkbox" id="vehicle4" name="vehicle4" value="Lambo">
+  <label for="vehicle4"> Pepper</label><br><br><br>
+</div>
+
+<div style="overflow:auto;">
+  <div style="float:right;">
+    <button type="button" id="prevBtn" onclick="nextPrev(-1)" style="background-color: red; color: white">Previous</button>
+    <button type="button" id="nextBtn" onclick="nextPrev(1)" style="background-color: green; color: white">Next</button>
+  </div>
+</div>
+
+<!-- Circles which indicates the steps of the form: -->
+<div style="text-align:center;margin-top:40px;">
+  <span class="step"></span>
+  <span class="step"></span>
+  <span class="step"></span>
+  <span class="step"></span>
+</div>
+
+</form>
+
+<!--hoagie builder form ends-->
+
+
+
+
+    <!-- Start Footer -->
+  <footer id="mu-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        <div class="mu-footer-area">
+          <div class="mu-footer-copyright">
+            <p>&copy; Copyright <a rel="nofollow" href="">JustSomeRutgersStudents</a>. All right reserved.</p>
+          </div>         
+        </div>
+      </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+  
+  <!-- jQuery library -->
+  <script src="assets/js/jquery.min.js"></script>  
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="assets/js/bootstrap.js"></script>   
+  <!-- Slick slider -->
+  <script type="text/javascript" src="assets/js/slick.js"></script>
+  <!-- Counter -->
+  <script type="text/javascript" src="assets/js/simple-animated-counter.js"></script>
+  <!-- Gallery Lightbox -->
+  <script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
+  <!-- Date Picker -->
+  <script type="text/javascript" src="assets/js/bootstrap-datepicker.js"></script> 
+  <!-- Ajax contact form  -->
+  <script type="text/javascript" src="assets/js/app.js"></script>
+ 
+  <!-- Custom js -->
+  <script src="assets/js/custom.js"></script> 
+  <script src="assets/js/hoagieform.js"></script>
+
+  </body>
+  </html>
