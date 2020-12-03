@@ -138,7 +138,8 @@ console.log("<<<5 IIFE HoagieBuilder is fifth >>>");
 var HoagieBuilder = (function(maker) {
   // Private variable to store the different veggie prices
   var toppingCal= {"Lettuce":         5, 
-                  "Tomato":          15, 
+                  "Tomato":          15,
+		   "Peppers":	      0,
                   "Pickle":           0, 
                   "Cucumbers":        0, 
                   "Jalapenos":        0, 
