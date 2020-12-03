@@ -184,12 +184,12 @@ coldChooser.addEventListener("click", function(event) {
   selectedTopping = event.target.id;                      //Get the value chosen from the DOM
   selectedTopping = selectedTopping.split("--");          //Splitting the selectedTopping gives us an array of "btn [0]" and "(bread choosen [1])"
   
-  if (selectedTopping[0] === " "){
+  if (selectedTopping[0] === "btn"){
     let coldH = HoagieBuilder.getColdCal();          //Returns the object representing our breads and prices
     let coldHKey = selectedTopping[1];                    //Represents the bread chosen
     finalHoagieCal += coldH[coldHKey];               // Add the topping to the HoagieBuilder to increase the total price
-    sandwichEl.innerHTML += `+$${coldH[coldHKey]} for ${selectedTopping[1]}<br>`; //Output to DOM
-    totalEl.innerHTML = `$${finalHoagieCal} current total`;
+    sandwichEl.innerHTML += `+${coldH[coldHKey]} for ${selectedTopping[1]}<br>`; //Output to DOM
+    totalEl.innerHTML = `${finalHoagieCal} current total`;
 
     console.log("We selected: ",selectedTopping[1], " ",coldH[coldHKey]);   
     console.log("finalHoagieCal",finalHoagieCal );
@@ -204,8 +204,8 @@ hotChooser.addEventListener("click", function(event) {
     let hotH = HoagieBuilder.getHotCal();
     let hotHKey = selectedTopping[1];
     finalHoagieCal += hotH[hotHKey];
-    sandwichEl.innerHTML += `+$${hotH[hotHKey]} for ${selectedTopping[1]}<br>`;
-    totalEl.innerHTML = `$${finalHoagieCal} current total`;
+    sandwichEl.innerHTML += `+${hotH[hotHKey]} for ${selectedTopping[1]}<br>`;
+    totalEl.innerHTML = `${finalHoagieCal} current total`;
 
     console.log("We selected: ",selectedTopping[1], " ",hotH[hotHKey]);
     console.log("finalHoagieCal",finalHoagieCal );
@@ -220,8 +220,8 @@ cheeseChooser.addEventListener("click", function(event) {
     let cheeses = HoagieBuilder.getCheeseCal();
     let cheeseKey = selectedTopping[1];
     finalHoagieCal += cheeses[cheeseKey];
-    sandwichEl.innerHTML += `+$${cheeses[cheeseKey]} for ${selectedTopping[1]}<br>`;
-    totalEl.innerHTML = `$${finalHoagieCal} current total`;
+    sandwichEl.innerHTML += `+${cheeses[cheeseKey]} for ${selectedTopping[1]}<br>`;
+    totalEl.innerHTML = `${finalHoagieCal} current total`;
 
     console.log("We selected: ",selectedTopping[1], " ",cheeses[cheeseKey]);
     console.log("finalHoagieCal",finalHoagieCal );
@@ -236,8 +236,8 @@ condimentChooser.addEventListener("click", function(event) {
     let condiments = HoagieBuilder.getCondimentCal();
     let condimentKey = selectedTopping[1];
     finalHoagieCal += condiments[condimentKey];
-    sandwichEl.innerHTML += `+$${condiments[condimentKey]} for ${selectedTopping[1]}<br>`;
-    totalEl.innerHTML = `$${finalHoagieCal} current total`;
+    sandwichEl.innerHTML += `+${condiments[condimentKey]} for ${selectedTopping[1]}<br>`;
+    totalEl.innerHTML = `${finalHoagieCal} current total`;
 
     console.log("We selected: ",selectedTopping[1], " ",condiments[condimentKey]);
     console.log("finalHoagieCal",finalHoagieCal );
@@ -252,8 +252,8 @@ toppingChooser.addEventListener("click", function(event) {
     let topping = HoagieBuilder.getToppingCal();
     let toppingKey = selectedTopping[1];
     finalHoagieCal += topping[toppingKey];
-    sandwichEl.innerHTML += `+$${topping[toppingKey]} for ${selectedTopping[1]}<br>`;
-    totalEl.innerHTML = `$${finalHoagieCal} current total`;
+    sandwichEl.innerHTML += `+${topping[toppingKey]} for ${selectedTopping[1]}<br>`;
+    totalEl.innerHTML = `${finalHoagieCal} current total`;
 
     console.log("We selected: ",selectedTopping[1], " ",topping[toppingKey]);
     console.log("finalHoagieCal",finalHoagieCal );
