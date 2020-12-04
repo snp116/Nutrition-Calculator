@@ -166,7 +166,7 @@ coldChooser.addEventListener("click", function(event) {
   selectedTopping = event.target.id;                      //Get the value chosen from the DOM
   selectedTopping = selectedTopping.split("--");          //Splitting the selectedTopping gives us an array of "btn [0]" and "(bread choosen [1])"
   
-  if (selectedTopping[0] === " "){
+  if (selectedTopping[0] === "btn"){
     let coldH = HoagieBuilder.getColdCal();          //Returns the object representing our breads and prices
     let coldHKey = selectedTopping[1];                    //Represents the bread chosen
     finalHoagieCal += coldH[coldHKey];               // Add the topping to the HoagieBuilder to increase the total price
