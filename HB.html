@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>6-12 | Home</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+    <!-- Font awesome -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">     
+    <!-- Theme color -->
+    <link id="switcher" href="assets/css/theme-color/red-theme.css" rel="stylesheet">     
+    <!-- Main style sheet -->
+    <link href="style.css" rel="stylesheet">    
+
+   
+    <!-- Google Fonts -->
+
+    <!-- Prata for body  -->
+    <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
+    <!-- Tangerine for small title -->
+    <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>   
+    <!-- Open Sans for title -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body>
+
+  <!-- Start header section -->
+  <header id="mu-header">  
+    <nav class="navbar navbar-default mu-main-navbar" role="navigation">  
+      <div class="container">
+        <div class="navbar-header">
+          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <!-- LOGO -->       
+
+           <!--  Text based logo  -->
+          <a class="navbar-brand1" href="index.html"><p style="color:red;">6-12</p><span><p style="color:green;">Hoagies</p></span></a> 
+
+		      <!--  Image based logo  -->
+          <!-- <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="Logo img"></a>  -->
+         
+
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#mu-about-us">ABOUT US</a></li>                       
+            <li><a href="hoagie_builder.html">BUILD A HOAGIE</a></li>                       
+            <li><a href="#mu-contact">CONTACT</a></li> 
+          </ul>                            
+        </div><!--/.nav-collapse -->       
+      </div>          
+    </nav> 
+  </header>
+  <!-- End header section -->
+
+	<!---Hoagie Builder Form Starts -->
+	<form id="regForm" action="hoagie_builder_results.html">
+
+
+	<h1>6-12 Hoagie </h1>
+
+	<fieldset>
+		<legend> Build your Hoagie </legend>
+
+		<h2>Choose your Hoagie size:</h2>
+		<div class="choosers" id="size"> 
+			<button type="button" id="btn--4 inch"> 4 inch </button>
+			<button type="button" id="btn--6 inch"> 6 inch </button>
+			<button type="button" id="btn--10 inch"> 10 inch </button>
+		</div>
+
+		<h2>Choose your Hoagie type:</h2>
+		<div class="choosers" id="type"> 
+			<button type="button" id="Hot"> Hot </button>
+			<button type="button" id="Cold"> Cold </button>
+		</div>
+
+		<h2>Choose your Cold Hoagie:</h2>
+		<div class="choosers" id="coldType">
+			<p><img src="assets/img/turkeyhoagie.jpg" alt="Turkey Hoagie" height="100" width="100"></p>
+			<button type="button" id="btn--Turkey"> Turkey </button>
+			<p><img src="assets/img/ham.jpeg" alt="Ham Hoagie" height="100" width="100"></p>
+			<button type="button" id="btn--Ham"> Ham </button>
+			<p><img src="assets/img/pepperoni.jpg" alt="Pepperoni Hoagie" height="100" width="100"></p>
+			<button type="button" id="btn--Pepperoni"> Pepperoni </button>
+			<p><img src="assets/img/roastbeef.jpg" alt="Roast Beef" height="100" width="100"></p>
+			<button type="button" id="btn--Roast Beef"> Roast Beef </button>
+			<p><img src="assets/img/italian.jpeg" alt="Italian" height="100" width="100"></p>
+			<button type="button" id="btn--Italian"> Italian </button>
+			<p><img src="assets/img/roastedveg.jpg" alt="Roasted Vegetables" height="100" width="100"></p>
+			<button type="button" id="btn--Roasted Veggie"> Roasted Veggie </button>
+			
+		</div>
+
+		<h2>Choose your Hot Hoagie:</h2>
+		<div class="choosers" id="hotType">
+			<p><img src="assets/img/meatball.jpg" alt="Meatball" height="100" width="100"></p>
+			<button type="button" id="btn--Meatball"> Meatball </button>
+			<p><img src="assets/img/cheesesteak.jpg" alt="Cheesesteak" height="100" width="100"></p>
+			<button type="button" id="btn--Cheesestake"> Cheesestake </button>
+			<p><img src="assets/img/hotveggie.jpg" alt="Veggie" height="100" width="100"></p>
+			<button type="button" id="btn--Veggie"> Veggie </button>
+		</div>
+
+			<h2>Choose your Cheese:</h2>
+		<div class="choosers" id="cheeses">
+			<button type="button" id="btn--American"> American </button>
+			<button type="button" id="btn--Provolone"> Provolone </button>
+			<button type="button" id="btn--Cheddar"> Cheddar </button>
+			<button type="button" id="btn--Swiss"> Swiss </button>
+      		<button type="button" id="btn--Pepper Jack"> Pepper Jack </button>
+      		<button type="button" id="btn--No Cheese"> No Cheese </button>
+		</div>
+
+		<h2>Choose your Condiments:</h2>
+		<div class="choosers" id="condiments">
+
+			<button type="button" id="btn--Mayo"> Mayo </button>
+      		<button type="button" id="btn--Oil"> Oil </button>
+      		<button type="button" id="btn--Vinegar"> Vinegar </button>
+      		<button type="button" id="btn--Ranch Dressing"> Ranch Dressing </button>
+      		<button type="button" id="btn--Yellow Mustard"> Yellow Mustard </button>
+      		<button type="button" id="btn--Ketchup"> Ketchup </button>
+			<button type="button" id="btn--BBQ Sauce"> BBQ Sauce </button>
+			<button type="button" id="btn--Siracha Sauce"> Siracha Sauce </button>
+		</div>
+
+		<h2>Choose your toppings:</h2>
+		<div class="choosers" id="topping">
+			<button type="button" id="btn--Lettuce"> Lettuce </button>
+			<button type="button" id="btn--Tomato"> Tomato </button>
+			<button type="button" id="btn--Pickle"> Pickle </button>
+			<button type="button" id="btn--Peppers"> Peppers </button>
+			<button type="button" id="btn--Cucumbers"> Cucumbers </button>	
+			<button type="button" id="btn--Jalapenos"> Jalapenos </button>	
+			<button type="button" id="btn--Grated Parmesan"> Grated Parmesan </button>
+			<button type="button" id="btn--Spinach"> Spinach </button>
+			<button type="button" id="btn--Salt"> Salt </button>
+			<button type="button" id="btn--Black Peppers"> Black Pepper </button>      
+		</div>
+
+
+<!---Hoagie Builder Form Results  -->
+<div class="formresults">
+<section class="performance-facts">
+  <header class="performance-facts__header">
+    <h1 class="performance-facts__title">Nutrition Facts</h1>
+    <p>Serving Size 1/2 cup (about 82g)
+      <p>Serving Per Container 8</p>
+  </header>
+  <table class="performance-facts__table">
+    <thead>
+      <tr>
+        <th colspan="3" class="small-info">
+          Amount Per Serving
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th colspan="2">
+          <b>Calories</b>
+        </th>
+        <td>
+    <div id="totalEl">
+	</div>
+        </td>
+      </tr>
+      <tr class="thick-row">
+        <td colspan="3" class="small-info">
+          <b>% Daily Value*</b>
+        </td>
+      </tr>
+      <tr>
+        <th colspan="2">
+          <b>Total Fat</b>
+          14g
+        </th>
+        <td>
+          <b>22%</b>
+        </td>
+      </tr>
+      <tr>
+        <td class="blank-cell">
+        </td>
+        <th>
+          Saturated Fat
+          9g
+        </th>
+        <td>
+          <b>22%</b>
+        </td>
+      </tr>
+      <tr>
+        <td class="blank-cell">
+        </td>
+        <th>
+          Trans Fat
+          0g
+        </th>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <th colspan="2">
+          <b>Cholesterol</b>
+          55mg
+        </th>
+        <td>
+          <b>18%</b>
+        </td>
+      </tr>
+      <tr>
+        <th colspan="2">
+          <b>Sodium</b>
+          40mg
+        </th>
+        <td>
+          <b>2%</b>
+        </td>
+      </tr>
+      <tr>
+        <th colspan="2">
+          <b>Total Carbohydrate</b>
+          17g
+        </th>
+        <td>
+          <b>6%</b>
+        </td>
+      </tr>
+      <tr>
+        <td class="blank-cell">
+        </td>
+        <th>
+          Dietary Fiber
+          1g
+        </th>
+        <td>
+          <b>4%</b>
+        </td>
+      </tr>
+      <tr>
+        <td class="blank-cell">
+        </td>
+        <th>
+          Sugars
+          14g
+        </th>
+        <td>
+        </td>
+      </tr>
+      <tr class="thick-end">
+        <th colspan="2">
+          <b>Protein</b>
+          3g
+        </th>
+        <td>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="performance-facts__table--grid">
+    <tbody>
+      <tr>
+        <td colspan="2">
+          Vitamin A
+          10%
+        </td>
+        <td>
+          Vitamin C
+          0%
+        </td>
+      </tr>
+      <tr class="thin-end">
+        <td colspan="2">
+          Calcium
+          10%
+        </td>
+        <td>
+          Iron
+          6%
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="small-info">* Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs:</p>
+
+  <table class="performance-facts__table--small small-info">
+    <thead>
+      <tr>
+        <td colspan="2"></td>
+        <th>Calories:</th>
+        <th>2,000</th>
+        <th>2,500</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th colspan="2">Total Fat</th>
+        <td>Less than</td>
+        <td>65g</td>
+        <td>80g</td>
+      </tr>
+      <tr>
+        <td class="blank-cell"></td>
+        <th>Saturated Fat</th>
+        <td>Less than</td>
+        <td>20g</td>
+        <td>25g</td>
+      </tr>
+      <tr>
+        <th colspan="2">Cholesterol</th>
+        <td>Less than</td>
+        <td>300mg</td>
+        <td>300 mg</td>
+      </tr>
+      <tr>
+        <th colspan="2">Sodium</th>
+        <td>Less than</td>
+        <td>2,400mg</td>
+        <td>2,400mg</td>
+      </tr>
+      <tr>
+        <th colspan="3">Total Carbohydrate</th>
+        <td>300g</td>
+        <td>375g</td>
+      </tr>
+      <tr>
+        <td class="blank-cell"></td>
+        <th colspan="2">Dietary Fiber</th>
+        <td>25g</td>
+        <td>30g</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="small-info">
+    Calories per gram:
+  </p>
+  <p class="small-info text-center">
+    Fat 9
+    &bull;
+    Carbohydrate 4
+    &bull;
+    Protein 4
+  </p>
+
+</section>
+</div>
+<!--hoagie builder Form Results ends-->
+
+
+	
+
+	<div id="finalSandwichEl">
+	</div>
+	<div id="totalEl">
+	</div>
+
+
+
+
+
+
+
+
+	<br>
+
+	<div style="overflow:auto;">
+  		<div style="float:right;">
+    		<a href="calories.pdf"><button type="button" id="prevBtn" style="background-color: red; color: white">Ingredients Calories PDF</button></a>
+    		<a href="HB.html"><button type="button" id="nextBtn" style="background-color: green; color: white">Create New Hoagie</button></a>
+  		</div>
+	</div>
+
+	<div style="text-align:center;margin-top:40px;">
+		<span class="step"></span>
+  		<span class="step"></span>
+  		<span class="step"></span>
+  		<span class="step"></span>
+	</div>
+	</fieldset>
+
+	<!--hoagie builder form ends-->
+
+
+
+
+    <!-- Start Footer -->
+  <footer id="mu-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        <div class="mu-footer-area">
+          <div class="mu-footer-copyright">
+            <p>&copy; Copyright <a rel="nofollow" href="">JustSomeRutgersStudents</a>. All rights reserved.</p>
+          </div>         
+        </div>
+      </div>
+      </div>
+    </div>
+  </footer>
+
+  	<!-- End Footer -->
+  
+  <!-- jQuery library -->
+  <script src="assets/js/jquery.min.js"></script>  
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="assets/js/bootstrap.js"></script>   
+  <!-- Slick slider -->
+  <script type="text/javascript" src="assets/js/slick.js"></script>
+  <!-- Counter -->
+  <script type="text/javascript" src="assets/js/simple-animated-counter.js"></script>
+  <!-- Gallery Lightbox -->
+  <script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
+  <!-- Date Picker -->
+  <script type="text/javascript" src="assets/js/bootstrap-datepicker.js"></script> 
+  <!-- Ajax contact form  -->
+  <script type="text/javascript" src="assets/js/app.js"></script>
+ 
+  <!-- Custom js -->
+  <script src="assets/js/custom.js"></script> 
+  <script src="assets/js/HB-main.js"></source>
+  <script src="javascripts/DOMhandler.js"></script> 
+
+  </body>
+  </html>
+
+  
+  
