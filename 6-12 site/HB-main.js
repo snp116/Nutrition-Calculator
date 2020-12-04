@@ -1,8 +1,8 @@
-//Kick off our IIFE object here... START:
+
 var HoagieBuilder = (function() {
   var totalCalorie = 0;     // Private variable to store the hoagie CALORIE
 
-  // Return the public interface that other code can interact with
+
   return {
     addTopping: function(toppingCal) {
       totalCalorie += toppingCal;
@@ -11,20 +11,14 @@ var HoagieBuilder = (function() {
     }
   };
 })();
-///////////////////////LOOSE AUGMENTATION///////////////////////
-//////  Alternatively we could open and close each IIFE with:
-//////  var HoagieBuilder = (function(maker) {
-//////    STUFF
-//////  })(HoagieBuilder || {});
 
 
 
-///////////////////////NEW JAVASCRIPT FILE///////////////////////
-console.log("<<<1 IIFE HoagieBuilder is first >>>");
-// console.log("<<<2 IIFE bread.js loaded >>>");
-// This HoagieBuilder IIFE augments the original one
+
+
+
 var HoagieBuilder = (function(maker) {
-  // Private variable to store the different bread prices
+ 
   var coldCal= {"Turkey":         330,
                 "Ham":            100, 
                 "Pepperoni":      360, 
@@ -48,10 +42,8 @@ var HoagieBuilder = (function(maker) {
 
 
 
-///////////////////////NEW JAVASCRIPT FILE///////////////////////
-console.log("<<<2 IIFE HoagieBuilder is second >>>");
-// console.log("<<<3 IIFE meat.js loaded >>>");
-// This HoagieBuilder IIFE augments the original one
+
+
 var HoagieBuilder = (function(maker) {
   // Private variable to store the different meat prices
   var hotCal = {"Meatball":    480, 
@@ -73,10 +65,8 @@ var HoagieBuilder = (function(maker) {
 
 
 
-///////////////////////NEW JAVASCRIPT FILE///////////////////////
-console.log("<<<3 IIFE HoagieBuilder is third >>>");
-// console.log("<<<4 IIFE cheese.js loaded >>>");
-// This HoagieBuilder IIFE augments the original one
+
+
 var HoagieBuilder = (function(maker) {
   // Private variable to store the different cheese prices
   var cheeseCal= {"American":    80, 
@@ -101,10 +91,7 @@ var HoagieBuilder = (function(maker) {
 
 
 
-///////////////////////NEW JAVASCRIPT FILE///////////////////////
-console.log("<<<4 IIFE HoagieBuilder is fourth >>>");
-// console.log("<<<5 IIFE condiments.js loaded >>>");
-// This HoagieBuilder IIFE augments the original one
+
 var HoagieBuilder = (function(maker) {
   // Private variable to store the different condiment prices
   var condimentCal= {"Mayo":          50,
@@ -130,10 +117,6 @@ var HoagieBuilder = (function(maker) {
 })(HoagieBuilder);
 
 
-
-///////////////////////NEW JAVASCRIPT FILE///////////////////////
-console.log("<<<5 IIFE HoagieBuilder is fifth >>>");
-// console.log("<<<6 IIFE veggies.js loaded >>>");
 
 var HoagieBuilder = (function(maker) {
   // Private variable to store the different veggie prices
@@ -163,9 +146,7 @@ var HoagieBuilder = (function(maker) {
 
 
 
-///////////////////////NEW JAVASCRIPT FILE///////////////////////
-console.log("<<<6 IIFE HoagieBuilder is sixth >>>");
-// console.log("<<<7 IIFE DOMhandler.js loaded >>>");
+
 
 var finalHoagieCal = 0;   //Variable to hold the final price. Default to 0.
 var selectedTopping;          //Variable to hold topping that the user selects
