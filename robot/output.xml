@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.8.3 on darwin)" generated="20201204 22:55:53.507" rpa="false">
+<suite id="s1" name="Sample Test" source="/Users/melissamalcom/Documents/Fall 2020/Software Engineering/nutrition-calculator/robot/Tests/sample_test.robot">
+<test id="s1-t1" name="Example of connecting to Lambdatest via Robot Framework">
+<kw name="Open test browser" library="Common" type="setup">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://6-12hoagies.github.io/HB.html</arg>
+<arg>browser=${BROWSER}</arg>
+<arg>remote_url=${REMOTE_URL}</arg>
+<arg>desired_capabilities=${CAPABILITIES}</arg>
+</arguments>
+<msg timestamp="20201204 22:55:53.652" level="INFO">Opening browser 'chrome' to base url 'https://6-12hoagies.github.io/HB.html' through remote server at 'https://mlm475:mezqhi3StTgHWUy52RyVS2ReEUw3KSqCu4Gwdagq4ldTj2SQgh@hub.lambdatest.com/wd/hub'.</msg>
+<status status="PASS" starttime="20201204 22:55:53.652" endtime="20201204 22:56:00.168"></status>
+</kw>
+<timeout value="50 minutes"></timeout>
+<status status="PASS" starttime="20201204 22:55:53.651" endtime="20201204 22:56:00.169"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--4 inch"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:56:00.170" endtime="20201204 22:56:00.829"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--4 inch</arg>
+</arguments>
+<msg timestamp="20201204 22:56:02.348" level="INFO">Current page contains button 'id:btn--4 inch'.</msg>
+<status status="PASS" starttime="20201204 22:56:00.829" endtime="20201204 22:56:02.348"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--4 inch</arg>
+</arguments>
+<msg timestamp="20201204 22:56:02.349" level="INFO">Clicking button 'id:btn--4 inch'.</msg>
+<status status="PASS" starttime="20201204 22:56:02.349" endtime="20201204 22:56:03.615"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:56:04.860" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-112.png"&gt;&lt;img src="selenium-screenshot-112.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:56:03.615" endtime="20201204 22:56:04.860"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--6 inch"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:56:04.860" endtime="20201204 22:56:05.475"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--6 inch</arg>
+</arguments>
+<msg timestamp="20201204 22:56:06.674" level="INFO">Current page contains button 'id:btn--6 inch'.</msg>
+<status status="PASS" starttime="20201204 22:56:05.475" endtime="20201204 22:56:06.674"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--6 inch</arg>
+</arguments>
+<msg timestamp="20201204 22:56:06.675" level="INFO">Clicking button 'id:btn--6 inch'.</msg>
+<status status="PASS" starttime="20201204 22:56:06.674" endtime="20201204 22:56:07.555"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:56:08.414" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-113.png"&gt;&lt;img src="selenium-screenshot-113.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:56:07.556" endtime="20201204 22:56:08.414"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--10 inch"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:56:08.415" endtime="20201204 22:56:09.263"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--10 inch</arg>
+</arguments>
+<msg timestamp="20201204 22:56:10.158" level="INFO">Current page contains button 'id:btn--10 inch'.</msg>
+<status status="PASS" starttime="20201204 22:56:09.263" endtime="20201204 22:56:10.158"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--10 inch</arg>
+</arguments>
+<msg timestamp="20201204 22:56:10.159" level="INFO">Clicking button 'id:btn--10 inch'.</msg>
+<status status="PASS" starttime="20201204 22:56:10.158" endtime="20201204 22:56:11.016"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:56:12.411" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-114.png"&gt;&lt;img src="selenium-screenshot-114.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:56:11.016" endtime="20201204 22:56:12.411"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="Cold"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:56:12.411" endtime="20201204 22:56:12.758"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:Cold</arg>
+</arguments>
+<msg timestamp="20201204 22:56:14.196" level="INFO">Current page contains button 'id:Cold'.</msg>
+<status status="PASS" starttime="20201204 22:56:12.758" endtime="20201204 22:56:14.197"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:Cold</arg>
+</arguments>
+<msg timestamp="20201204 22:56:14.198" level="INFO">Clicking button 'id:Cold'.</msg>
+<status status="PASS" starttime="20201204 22:56:14.197" endtime="20201204 22:56:15.166"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:56:15.880" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-115.png"&gt;&lt;img src="selenium-screenshot-115.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:56:15.166" endtime="20201204 22:56:15.880"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="Hot"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:56:15.880" endtime="20201204 22:56:16.319"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:Hot</arg>
+</arguments>
+<msg timestamp="20201204 22:56:18.000" level="INFO">Current page contains button 'id:Hot'.</msg>
+<status status="PASS" starttime="20201204 22:56:16.319" endtime="20201204 22:56:18.001"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:Hot</arg>
+</arguments>
+<msg timestamp="20201204 22:56:18.001" level="INFO">Clicking button 'id:Hot'.</msg>
+<status status="PASS" starttime="20201204 22:56:18.001" endtime="20201204 22:56:18.834"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:56:19.509" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-116.png"&gt;&lt;img src="selenium-screenshot-116.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:56:18.835" endtime="20201204 22:56:19.510"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Turkey"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:56:19.510" endtime="20201204 22:56:19.901"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Turkey</arg>
+</arguments>
+<msg timestamp="20201204 22:56:20.774" level="INFO">Current page contains button 'id:btn--Turkey'.</msg>
+<status status="PASS" starttime="20201204 22:56:19.901" endtime="20201204 22:56:20.774"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Turkey</arg>
+</arguments>
+<msg timestamp="20201204 22:56:20.775" level="INFO">Clicking button 'id:btn--Turkey'.</msg>
+<status status="PASS" starttime="20201204 22:56:20.775" endtime="20201204 22:56:21.807"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:56:23.162" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-117.png"&gt;&lt;img src="selenium-screenshot-117.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:56:21.807" endtime="20201204 22:56:23.163"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Ham"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:56:23.163" endtime="20201204 22:56:23.875"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Ham</arg>
+</arguments>
+<msg timestamp="20201204 22:56:24.929" level="INFO">Current page contains button 'id:btn--Ham'.</msg>
+<status status="PASS" starttime="20201204 22:56:23.876" endtime="20201204 22:56:24.930"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Ham</arg>
+</arguments>
+<msg timestamp="20201204 22:56:24.930" level="INFO">Clicking button 'id:btn--Ham'.</msg>
+<status status="PASS" starttime="20201204 22:56:24.930" endtime="20201204 22:56:26.093"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:56:27.017" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-118.png"&gt;&lt;img src="selenium-screenshot-118.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:56:26.094" endtime="20201204 22:56:27.017"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Pepperoni"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:56:27.018" endtime="20201204 22:56:27.358"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Pepperoni</arg>
+</arguments>
+<msg timestamp="20201204 22:56:28.210" level="INFO">Current page contains button 'id:btn--Pepperoni'.</msg>
+<status status="PASS" starttime="20201204 22:56:27.358" endtime="20201204 22:56:28.211"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Pepperoni</arg>
+</arguments>
+<msg timestamp="20201204 22:56:28.211" level="INFO">Clicking button 'id:btn--Pepperoni'.</msg>
+<status status="PASS" starttime="20201204 22:56:28.211" endtime="20201204 22:56:29.278"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:56:30.517" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-119.png"&gt;&lt;img src="selenium-screenshot-119.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:56:29.278" endtime="20201204 22:56:30.517"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Roast Beef"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:56:30.518" endtime="20201204 22:56:30.860"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Roast Beef</arg>
+</arguments>
+<msg timestamp="20201204 22:56:31.702" level="INFO">Current page contains button 'id:btn--Roast Beef'.</msg>
+<status status="PASS" starttime="20201204 22:56:30.860" endtime="20201204 22:56:31.702"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Roast Beef</arg>
+</arguments>
+<msg timestamp="20201204 22:56:31.703" level="INFO">Clicking button 'id:btn--Roast Beef'.</msg>
+<status status="PASS" starttime="20201204 22:56:31.702" endtime="20201204 22:56:32.515"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:56:33.735" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-120.png"&gt;&lt;img src="selenium-screenshot-120.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:56:32.516" endtime="20201204 22:56:33.736"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Italian"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:56:33.736" endtime="20201204 22:56:34.141"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Italian</arg>
+</arguments>
+<msg timestamp="20201204 22:56:35.026" level="INFO">Current page contains button 'id:btn--Italian'.</msg>
+<status status="PASS" starttime="20201204 22:56:34.142" endtime="20201204 22:56:35.026"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Italian</arg>
+</arguments>
+<msg timestamp="20201204 22:56:35.027" level="INFO">Clicking button 'id:btn--Italian'.</msg>
+<status status="PASS" starttime="20201204 22:56:35.026" endtime="20201204 22:56:35.868"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:56:36.630" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-121.png"&gt;&lt;img src="selenium-screenshot-121.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:56:35.868" endtime="20201204 22:56:36.630"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Roasted Veggie"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:56:36.630" endtime="20201204 22:56:36.972"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Roasted Veggie</arg>
+</arguments>
+<msg timestamp="20201204 22:56:37.798" level="INFO">Current page contains button 'id:btn--Roasted Veggie'.</msg>
+<status status="PASS" starttime="20201204 22:56:36.973" endtime="20201204 22:56:37.799"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Roasted Veggie</arg>
+</arguments>
+<msg timestamp="20201204 22:56:37.799" level="INFO">Clicking button 'id:btn--Roasted Veggie'.</msg>
+<status status="PASS" starttime="20201204 22:56:37.799" endtime="20201204 22:56:38.638"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:56:39.394" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-122.png"&gt;&lt;img src="selenium-screenshot-122.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:56:38.639" endtime="20201204 22:56:39.394"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Meatball"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:56:39.394" endtime="20201204 22:56:39.892"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Meatball</arg>
+</arguments>
+<msg timestamp="20201204 22:56:40.962" level="INFO">Current page contains button 'id:btn--Meatball'.</msg>
+<status status="PASS" starttime="20201204 22:56:39.893" endtime="20201204 22:56:40.962"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Meatball</arg>
+</arguments>
+<msg timestamp="20201204 22:56:40.963" level="INFO">Clicking button 'id:btn--Meatball'.</msg>
+<status status="PASS" starttime="20201204 22:56:40.962" endtime="20201204 22:56:42.061"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:56:43.081" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-123.png"&gt;&lt;img src="selenium-screenshot-123.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:56:42.061" endtime="20201204 22:56:43.081"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Veggie"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:56:43.082" endtime="20201204 22:56:43.525"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Veggie</arg>
+</arguments>
+<msg timestamp="20201204 22:56:44.627" level="INFO">Current page contains button 'id:btn--Veggie'.</msg>
+<status status="PASS" starttime="20201204 22:56:43.526" endtime="20201204 22:56:44.627"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Veggie</arg>
+</arguments>
+<msg timestamp="20201204 22:56:44.628" level="INFO">Clicking button 'id:btn--Veggie'.</msg>
+<status status="PASS" starttime="20201204 22:56:44.627" endtime="20201204 22:56:45.702"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:56:46.442" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-124.png"&gt;&lt;img src="selenium-screenshot-124.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:56:45.703" endtime="20201204 22:56:46.443"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--American"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:56:46.443" endtime="20201204 22:56:46.824"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--American</arg>
+</arguments>
+<msg timestamp="20201204 22:56:47.650" level="INFO">Current page contains button 'id:btn--American'.</msg>
+<status status="PASS" starttime="20201204 22:56:46.824" endtime="20201204 22:56:47.651"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--American</arg>
+</arguments>
+<msg timestamp="20201204 22:56:47.652" level="INFO">Clicking button 'id:btn--American'.</msg>
+<status status="PASS" starttime="20201204 22:56:47.651" endtime="20201204 22:56:48.503"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:56:49.242" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-125.png"&gt;&lt;img src="selenium-screenshot-125.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:56:48.503" endtime="20201204 22:56:49.243"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Provolone"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:56:49.243" endtime="20201204 22:56:49.576"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Provolone</arg>
+</arguments>
+<msg timestamp="20201204 22:56:50.429" level="INFO">Current page contains button 'id:btn--Provolone'.</msg>
+<status status="PASS" starttime="20201204 22:56:49.576" endtime="20201204 22:56:50.430"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Provolone</arg>
+</arguments>
+<msg timestamp="20201204 22:56:50.430" level="INFO">Clicking button 'id:btn--Provolone'.</msg>
+<status status="PASS" starttime="20201204 22:56:50.430" endtime="20201204 22:56:51.245"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:56:52.346" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-126.png"&gt;&lt;img src="selenium-screenshot-126.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:56:51.245" endtime="20201204 22:56:52.347"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Cheddar"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:56:52.347" endtime="20201204 22:56:52.973"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Cheddar</arg>
+</arguments>
+<msg timestamp="20201204 22:56:54.142" level="INFO">Current page contains button 'id:btn--Cheddar'.</msg>
+<status status="PASS" starttime="20201204 22:56:52.973" endtime="20201204 22:56:54.142"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Cheddar</arg>
+</arguments>
+<msg timestamp="20201204 22:56:54.143" level="INFO">Clicking button 'id:btn--Cheddar'.</msg>
+<status status="PASS" starttime="20201204 22:56:54.142" endtime="20201204 22:56:55.188"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:56:56.003" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-127.png"&gt;&lt;img src="selenium-screenshot-127.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:56:55.188" endtime="20201204 22:56:56.003"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Swiss"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:56:56.003" endtime="20201204 22:56:56.510"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Swiss</arg>
+</arguments>
+<msg timestamp="20201204 22:56:57.499" level="INFO">Current page contains button 'id:btn--Swiss'.</msg>
+<status status="PASS" starttime="20201204 22:56:56.511" endtime="20201204 22:56:57.499"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Swiss</arg>
+</arguments>
+<msg timestamp="20201204 22:56:57.499" level="INFO">Clicking button 'id:btn--Swiss'.</msg>
+<status status="PASS" starttime="20201204 22:56:57.499" endtime="20201204 22:56:58.450"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:56:59.464" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-128.png"&gt;&lt;img src="selenium-screenshot-128.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:56:58.451" endtime="20201204 22:56:59.465"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Pepper Jack"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:56:59.465" endtime="20201204 22:56:59.832"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Pepper Jack</arg>
+</arguments>
+<msg timestamp="20201204 22:57:01.068" level="INFO">Current page contains button 'id:btn--Pepper Jack'.</msg>
+<status status="PASS" starttime="20201204 22:56:59.832" endtime="20201204 22:57:01.068"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Pepper Jack</arg>
+</arguments>
+<msg timestamp="20201204 22:57:01.069" level="INFO">Clicking button 'id:btn--Pepper Jack'.</msg>
+<status status="PASS" starttime="20201204 22:57:01.068" endtime="20201204 22:57:02.120"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:57:02.938" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-129.png"&gt;&lt;img src="selenium-screenshot-129.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:57:02.120" endtime="20201204 22:57:02.938"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--No Cheese"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:57:02.938" endtime="20201204 22:57:03.435"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--No Cheese</arg>
+</arguments>
+<msg timestamp="20201204 22:57:04.352" level="INFO">Current page contains button 'id:btn--No Cheese'.</msg>
+<status status="PASS" starttime="20201204 22:57:03.435" endtime="20201204 22:57:04.352"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--No Cheese</arg>
+</arguments>
+<msg timestamp="20201204 22:57:04.353" level="INFO">Clicking button 'id:btn--No Cheese'.</msg>
+<status status="PASS" starttime="20201204 22:57:04.352" endtime="20201204 22:57:05.468"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:57:06.286" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-130.png"&gt;&lt;img src="selenium-screenshot-130.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:57:05.469" endtime="20201204 22:57:06.287"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Mayo"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:57:06.287" endtime="20201204 22:57:06.792"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Mayo</arg>
+</arguments>
+<msg timestamp="20201204 22:57:07.855" level="INFO">Current page contains button 'id:btn--Mayo'.</msg>
+<status status="PASS" starttime="20201204 22:57:06.792" endtime="20201204 22:57:07.856"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Mayo</arg>
+</arguments>
+<msg timestamp="20201204 22:57:07.856" level="INFO">Clicking button 'id:btn--Mayo'.</msg>
+<status status="PASS" starttime="20201204 22:57:07.856" endtime="20201204 22:57:09.031"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:57:10.027" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-131.png"&gt;&lt;img src="selenium-screenshot-131.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:57:09.032" endtime="20201204 22:57:10.027"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Oil"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:57:10.028" endtime="20201204 22:57:10.458"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Oil</arg>
+</arguments>
+<msg timestamp="20201204 22:57:12.085" level="INFO">Current page contains button 'id:btn--Oil'.</msg>
+<status status="PASS" starttime="20201204 22:57:10.458" endtime="20201204 22:57:12.086"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Oil</arg>
+</arguments>
+<msg timestamp="20201204 22:57:12.086" level="INFO">Clicking button 'id:btn--Oil'.</msg>
+<status status="PASS" starttime="20201204 22:57:12.086" endtime="20201204 22:57:14.631"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:57:16.159" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-132.png"&gt;&lt;img src="selenium-screenshot-132.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:57:14.632" endtime="20201204 22:57:16.159"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Vinegar"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:57:16.159" endtime="20201204 22:57:17.277"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Vinegar</arg>
+</arguments>
+<msg timestamp="20201204 22:57:19.321" level="INFO">Current page contains button 'id:btn--Vinegar'.</msg>
+<status status="PASS" starttime="20201204 22:57:17.277" endtime="20201204 22:57:19.321"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Vinegar</arg>
+</arguments>
+<msg timestamp="20201204 22:57:19.322" level="INFO">Clicking button 'id:btn--Vinegar'.</msg>
+<status status="PASS" starttime="20201204 22:57:19.322" endtime="20201204 22:57:20.764"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:57:22.188" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-133.png"&gt;&lt;img src="selenium-screenshot-133.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:57:20.765" endtime="20201204 22:57:22.189"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Ranch Dressing"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:57:22.189" endtime="20201204 22:57:22.983"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Ranch Dressing</arg>
+</arguments>
+<msg timestamp="20201204 22:57:24.821" level="INFO">Current page contains button 'id:btn--Ranch Dressing'.</msg>
+<status status="PASS" starttime="20201204 22:57:22.983" endtime="20201204 22:57:24.822"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Ranch Dressing</arg>
+</arguments>
+<msg timestamp="20201204 22:57:24.822" level="INFO">Clicking button 'id:btn--Ranch Dressing'.</msg>
+<status status="PASS" starttime="20201204 22:57:24.822" endtime="20201204 22:57:26.442"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:57:27.418" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-134.png"&gt;&lt;img src="selenium-screenshot-134.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:57:26.443" endtime="20201204 22:57:27.419"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Yellow Mustard"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:57:27.419" endtime="20201204 22:57:27.972"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Yellow Mustard</arg>
+</arguments>
+<msg timestamp="20201204 22:57:29.550" level="INFO">Current page contains button 'id:btn--Yellow Mustard'.</msg>
+<status status="PASS" starttime="20201204 22:57:27.972" endtime="20201204 22:57:29.550"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Yellow Mustard</arg>
+</arguments>
+<msg timestamp="20201204 22:57:29.551" level="INFO">Clicking button 'id:btn--Yellow Mustard'.</msg>
+<status status="PASS" starttime="20201204 22:57:29.551" endtime="20201204 22:57:30.519"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:57:31.260" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-135.png"&gt;&lt;img src="selenium-screenshot-135.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:57:30.519" endtime="20201204 22:57:31.260"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Ketchup"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:57:31.261" endtime="20201204 22:57:31.839"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Ketchup</arg>
+</arguments>
+<msg timestamp="20201204 22:57:32.961" level="INFO">Current page contains button 'id:btn--Ketchup'.</msg>
+<status status="PASS" starttime="20201204 22:57:31.840" endtime="20201204 22:57:32.961"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Ketchup</arg>
+</arguments>
+<msg timestamp="20201204 22:57:32.962" level="INFO">Clicking button 'id:btn--Ketchup'.</msg>
+<status status="PASS" starttime="20201204 22:57:32.961" endtime="20201204 22:57:33.874"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:57:34.593" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-136.png"&gt;&lt;img src="selenium-screenshot-136.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:57:33.874" endtime="20201204 22:57:34.594"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--BBQ Sauce"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:57:34.594" endtime="20201204 22:57:35.086"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--BBQ Sauce</arg>
+</arguments>
+<msg timestamp="20201204 22:57:36.367" level="INFO">Current page contains button 'id:btn--BBQ Sauce'.</msg>
+<status status="PASS" starttime="20201204 22:57:35.087" endtime="20201204 22:57:36.367"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--BBQ Sauce</arg>
+</arguments>
+<msg timestamp="20201204 22:57:36.368" level="INFO">Clicking button 'id:btn--BBQ Sauce'.</msg>
+<status status="PASS" starttime="20201204 22:57:36.368" endtime="20201204 22:57:37.498"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:57:38.970" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-137.png"&gt;&lt;img src="selenium-screenshot-137.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:57:37.498" endtime="20201204 22:57:38.972"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Siracha Sauce"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:57:38.972" endtime="20201204 22:57:39.680"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Siracha Sauce</arg>
+</arguments>
+<msg timestamp="20201204 22:57:41.358" level="INFO">Current page contains button 'id:btn--Siracha Sauce'.</msg>
+<status status="PASS" starttime="20201204 22:57:39.681" endtime="20201204 22:57:41.358"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Siracha Sauce</arg>
+</arguments>
+<msg timestamp="20201204 22:57:41.359" level="INFO">Clicking button 'id:btn--Siracha Sauce'.</msg>
+<status status="PASS" starttime="20201204 22:57:41.358" endtime="20201204 22:57:42.517"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:57:43.243" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-138.png"&gt;&lt;img src="selenium-screenshot-138.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:57:42.518" endtime="20201204 22:57:43.244"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Ketchup"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:57:43.244" endtime="20201204 22:57:43.712"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Ketchup</arg>
+</arguments>
+<msg timestamp="20201204 22:57:44.776" level="INFO">Current page contains button 'id:btn--Ketchup'.</msg>
+<status status="PASS" starttime="20201204 22:57:43.712" endtime="20201204 22:57:44.776"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Ketchup</arg>
+</arguments>
+<msg timestamp="20201204 22:57:44.777" level="INFO">Clicking button 'id:btn--Ketchup'.</msg>
+<status status="PASS" starttime="20201204 22:57:44.776" endtime="20201204 22:57:46.605"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:57:47.296" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-139.png"&gt;&lt;img src="selenium-screenshot-139.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:57:46.606" endtime="20201204 22:57:47.296"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Lettuce"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:57:47.297" endtime="20201204 22:57:48.145"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Lettuce</arg>
+</arguments>
+<msg timestamp="20201204 22:57:49.863" level="INFO">Current page contains button 'id:btn--Lettuce'.</msg>
+<status status="PASS" starttime="20201204 22:57:48.146" endtime="20201204 22:57:49.863"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Lettuce</arg>
+</arguments>
+<msg timestamp="20201204 22:57:49.864" level="INFO">Clicking button 'id:btn--Lettuce'.</msg>
+<status status="PASS" starttime="20201204 22:57:49.864" endtime="20201204 22:57:50.813"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:57:51.614" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-140.png"&gt;&lt;img src="selenium-screenshot-140.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:57:50.813" endtime="20201204 22:57:51.615"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Tomato"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:57:51.615" endtime="20201204 22:57:51.995"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Tomato</arg>
+</arguments>
+<msg timestamp="20201204 22:57:52.935" level="INFO">Current page contains button 'id:btn--Tomato'.</msg>
+<status status="PASS" starttime="20201204 22:57:51.995" endtime="20201204 22:57:52.935"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Tomato</arg>
+</arguments>
+<msg timestamp="20201204 22:57:52.936" level="INFO">Clicking button 'id:btn--Tomato'.</msg>
+<status status="PASS" starttime="20201204 22:57:52.935" endtime="20201204 22:57:53.935"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:57:54.745" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-141.png"&gt;&lt;img src="selenium-screenshot-141.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:57:53.935" endtime="20201204 22:57:54.745"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Pickle"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:57:54.745" endtime="20201204 22:57:55.187"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Pickle</arg>
+</arguments>
+<msg timestamp="20201204 22:57:56.377" level="INFO">Current page contains button 'id:btn--Pickle'.</msg>
+<status status="PASS" starttime="20201204 22:57:55.187" endtime="20201204 22:57:56.378"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Pickle</arg>
+</arguments>
+<msg timestamp="20201204 22:57:56.379" level="INFO">Clicking button 'id:btn--Pickle'.</msg>
+<status status="PASS" starttime="20201204 22:57:56.378" endtime="20201204 22:57:57.497"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:57:58.975" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-142.png"&gt;&lt;img src="selenium-screenshot-142.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:57:57.497" endtime="20201204 22:57:58.975"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Peppers"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:57:58.976" endtime="20201204 22:57:59.383"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Peppers</arg>
+</arguments>
+<msg timestamp="20201204 22:58:00.768" level="INFO">Current page contains button 'id:btn--Peppers'.</msg>
+<status status="PASS" starttime="20201204 22:57:59.384" endtime="20201204 22:58:00.768"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Peppers</arg>
+</arguments>
+<msg timestamp="20201204 22:58:00.769" level="INFO">Clicking button 'id:btn--Peppers'.</msg>
+<status status="PASS" starttime="20201204 22:58:00.768" endtime="20201204 22:58:01.869"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:58:03.000" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-143.png"&gt;&lt;img src="selenium-screenshot-143.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:58:01.869" endtime="20201204 22:58:03.000"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Cucumbers"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:58:03.000" endtime="20201204 22:58:03.370"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Cucumbers</arg>
+</arguments>
+<msg timestamp="20201204 22:58:04.827" level="INFO">Current page contains button 'id:btn--Cucumbers'.</msg>
+<status status="PASS" starttime="20201204 22:58:03.371" endtime="20201204 22:58:04.827"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Cucumbers</arg>
+</arguments>
+<msg timestamp="20201204 22:58:04.828" level="INFO">Clicking button 'id:btn--Cucumbers'.</msg>
+<status status="PASS" starttime="20201204 22:58:04.827" endtime="20201204 22:58:06.048"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:58:06.942" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-144.png"&gt;&lt;img src="selenium-screenshot-144.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:58:06.048" endtime="20201204 22:58:06.942"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Jalapenos"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:58:06.943" endtime="20201204 22:58:07.269"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Jalapenos</arg>
+</arguments>
+<msg timestamp="20201204 22:58:08.390" level="INFO">Current page contains button 'id:btn--Jalapenos'.</msg>
+<status status="PASS" starttime="20201204 22:58:07.269" endtime="20201204 22:58:08.390"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Jalapenos</arg>
+</arguments>
+<msg timestamp="20201204 22:58:08.391" level="INFO">Clicking button 'id:btn--Jalapenos'.</msg>
+<status status="PASS" starttime="20201204 22:58:08.391" endtime="20201204 22:58:09.716"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:58:10.778" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-145.png"&gt;&lt;img src="selenium-screenshot-145.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:58:09.716" endtime="20201204 22:58:10.778"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Grated Parmesan"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:58:10.778" endtime="20201204 22:58:11.342"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Grated Parmesan</arg>
+</arguments>
+<msg timestamp="20201204 22:58:12.455" level="INFO">Current page contains button 'id:btn--Grated Parmesan'.</msg>
+<status status="PASS" starttime="20201204 22:58:11.342" endtime="20201204 22:58:12.455"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Grated Parmesan</arg>
+</arguments>
+<msg timestamp="20201204 22:58:12.456" level="INFO">Clicking button 'id:btn--Grated Parmesan'.</msg>
+<status status="PASS" starttime="20201204 22:58:12.455" endtime="20201204 22:58:13.424"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:58:14.404" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-146.png"&gt;&lt;img src="selenium-screenshot-146.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:58:13.424" endtime="20201204 22:58:14.404"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Spinach"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:58:14.405" endtime="20201204 22:58:15.281"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Spinach</arg>
+</arguments>
+<msg timestamp="20201204 22:58:16.381" level="INFO">Current page contains button 'id:btn--Spinach'.</msg>
+<status status="PASS" starttime="20201204 22:58:15.281" endtime="20201204 22:58:16.381"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Spinach</arg>
+</arguments>
+<msg timestamp="20201204 22:58:16.382" level="INFO">Clicking button 'id:btn--Spinach'.</msg>
+<status status="PASS" starttime="20201204 22:58:16.381" endtime="20201204 22:58:17.558"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:58:18.494" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-147.png"&gt;&lt;img src="selenium-screenshot-147.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:58:17.558" endtime="20201204 22:58:18.494"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Salt"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:58:18.495" endtime="20201204 22:58:18.963"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Salt</arg>
+</arguments>
+<msg timestamp="20201204 22:58:20.067" level="INFO">Current page contains button 'id:btn--Salt'.</msg>
+<status status="PASS" starttime="20201204 22:58:18.964" endtime="20201204 22:58:20.067"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Salt</arg>
+</arguments>
+<msg timestamp="20201204 22:58:20.069" level="INFO">Clicking button 'id:btn--Salt'.</msg>
+<status status="PASS" starttime="20201204 22:58:20.067" endtime="20201204 22:58:21.279"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:58:22.306" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-148.png"&gt;&lt;img src="selenium-screenshot-148.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:58:21.279" endtime="20201204 22:58:22.306"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>xpath://*[@id="btn--Black Peppers"]</arg>
+</arguments>
+<status status="PASS" starttime="20201204 22:58:22.307" endtime="20201204 22:58:22.743"></status>
+</kw>
+<kw name="Page Should Contain Button" library="Selenium2Library">
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:btn--Black Peppers</arg>
+</arguments>
+<msg timestamp="20201204 22:58:23.704" level="INFO">Current page contains button 'id:btn--Black Peppers'.</msg>
+<status status="PASS" starttime="20201204 22:58:22.743" endtime="20201204 22:58:23.704"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btn--Black Peppers</arg>
+</arguments>
+<msg timestamp="20201204 22:58:23.705" level="INFO">Clicking button 'id:btn--Black Peppers'.</msg>
+<status status="PASS" starttime="20201204 22:58:23.704" endtime="20201204 22:58:24.894"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20201204 22:58:25.708" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-149.png"&gt;&lt;img src="selenium-screenshot-149.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201204 22:58:24.895" endtime="20201204 22:58:25.709"></status>
+</kw>
+<kw name="Close test browser" library="Common" type="teardown">
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>'${REMOTE_URL}' != ''</arg>
+<arg>Report Lambdatest Status</arg>
+<arg>${TEST_NAME}</arg>
+<arg>${TEST_STATUS}</arg>
+</arguments>
+<kw name="Report Lambdatest Status" library="LambdaTestStatus">
+<arguments>
+<arg>${TEST_NAME}</arg>
+<arg>${TEST_STATUS}</arg>
+</arguments>
+<msg timestamp="20201204 22:58:25.712" level="INFO">Executing JavaScript:
+lambda-status=passed
+Without any arguments.</msg>
+<msg timestamp="20201204 22:58:26.862" level="INFO">Executing JavaScript:
+lambda-name=Example of connecting to Lambdatest via Robot Framework
+Without any arguments.</msg>
+<status status="PASS" starttime="20201204 22:58:25.711" endtime="20201204 22:58:27.674"></status>
+</kw>
+<status status="PASS" starttime="20201204 22:58:25.710" endtime="20201204 22:58:27.674"></status>
+</kw>
+<kw name="Close All Browsers" library="Selenium2Library">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20201204 22:58:27.674" endtime="20201204 22:58:28.035"></status>
+</kw>
+<status status="PASS" starttime="20201204 22:58:25.709" endtime="20201204 22:58:28.036"></status>
+</kw>
+<timeout value="50 minutes"></timeout>
+<status status="PASS" starttime="20201204 22:55:53.650" endtime="20201204 22:58:28.036" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20201204 22:55:53.509" endtime="20201204 22:58:28.037"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Sample Test">Sample Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
