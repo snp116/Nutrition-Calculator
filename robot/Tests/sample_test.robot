@@ -12,6 +12,11 @@ Test Teardown  Common.Close test browser
 Example of connecting to Lambdatest via Robot Framework 
 	[Timeout]   ${TIMEOUT}
 
+	# Click Link
+	Capture Page Screenshot
+	Click Link       xpath=//*[@id="mu-slider"]/div/div/div/div/div/div/a
+	Capture Page Screenshot
+
 	# 4inch Button
 	Scroll Element Into View  xpath://*[@id="btn--4 inch"]
 	Page Should Contain Button  id:btn--4 inch
@@ -76,10 +81,10 @@ Example of connecting to Lambdatest via Robot Framework
 	Click Button  id:btn--Meatball
 	Capture Page Screenshot
 	# Hot Cheesestake
-	#Scroll Element Into View  xpath://*[@id="btn--Cheesestake"]
-	#Page Should Contain Button  id:btn--Cheesestake
-	#Click Button  id:btn--Cheesestake
-	#Capture Page Screenshot
+	Scroll Element Into View  xpath://*[@id="btn--Cheesesteak"]
+	Page Should Contain Button  id:btn--Cheesesteak
+	Click Button  id:btn--Cheesesteak
+	Capture Page Screenshot
 	# Hot Veggie
 	Scroll Element Into View  xpath://*[@id="btn--Veggie"]
 	Page Should Contain Button  id:btn--Veggie
