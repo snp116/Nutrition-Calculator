@@ -24,8 +24,9 @@ ${TIMEOUT}          3000
 *** Keywords ***
 
 Open test browser
+#https://6-12hoagies.github.io/HB.html
     [Timeout]   ${TIMEOUT}
-    Open browser  https://6-12hoagies.github.io/HB.html  browser=${BROWSER}
+    Open browser  https://6-12hoagies.github.io/index.html  browser=${BROWSER}
     ...  remote_url=${REMOTE_URL}
     ...  desired_capabilities=${CAPABILITIES}
 
